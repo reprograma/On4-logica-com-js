@@ -1,0 +1,47 @@
+- Declare uma variável de tipo Number de nome qualquer cujo valor seja seu ano de nascimento e mostre no console.
+- Declare uma variável de tipo String de nome qualquer cujo valor seja seu signo e mostre no console.
+- Declare uma variável souProgrmadora do tipo Boolean e mostre no console.
+
+---
+
+- Declare uma variável soma e atribua nela o resultado da soma entre dois número.
+- Declare uma variável idade e atribua nela o valor do calculo da sua idade com base no ano de hoje e o ano do seu nascimento (Dica se eu nasci em 1996 quanto anos fiz em 2019).
+- Declare uma variável multiplicacao e atribua nela o resultado da multiplicacao de soma, a variável que vc criou antes, por 10.
+- Declare uma variável divisao e atribua nela o resultado da divisão entre o valor de multiplicacao, a variável que vc criou antes, por um numero qualquer.
+- Declare uma variável resto e atribua nela o resultado do resto desse cálculo.
+
+- Mostre as variáveis a seguir no console: soma, idade, multiplicacao, divisao, resto.
+
+---
+
+- Crie uma variável chamada pizza cujo valor é 0 e incremente a quantidade de pedaços que você comeria agora.
+- Crie uma variável chamada semana cujo valor é 7 e decremente com a quantidade de dias não ‘úteis’.
+
+- Mostre as variáveis no console:
+
+---
+
+- Receba um valor do prompt chamado mes cujo valor deve ser um mês do ano, se esse mes for igual a “Dezembro” escreva no console ‘Está quase acabando!!’.
+
+- Receba um valor do prompt chamado idade cujo valor é a sua idade, se for maior ou igual a 65 anos escreva no console ‘Fila Preferencial’,caso contrário escra "‘Fila Comum";
+
+---
+
+- Crie uma variável chamada banda que seja um array com as suas 3 das suas bandas favoritas
+- Crie uma variável chamada contato que seja um array com 2 emails de contato diferentes
+- Crie uma variável chamada numeros que seja um array com 7 valores numéricos aleatórios
+
+- Retorne no console a primeira banda do seu array banda
+- Retorne no console o ultimo numero do seu array numeros
+
+---
+
+
+Para mais desafios consulte o arquivo de desafios.
+
+
+
+
+
+
+
