@@ -6,7 +6,7 @@ Entender os princípios básicos de lógica de programação utilizando a lingua
 ## Porque aprender lógica com Javascript
 > JavaScript pode ser a linguagem ideal para quem quer aprender a programar. No JavaScript todo o processo de configuração de ambiente é minimizado. Isso não parece grande vantagem, mas você pode repetir o feito em casa, em um computador diferente, com outro browser e sistema operacional - [Paulo Silveira](https://blog.caelum.com.br/comecar-a-programar-e-com-javascript/)
 
-Recursos necessários para esta aula - navegador 
+Recursos necessários para esta aula - navegador e editor de texto 
 
 ## Console
 
