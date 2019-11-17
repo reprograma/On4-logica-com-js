@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Ternário</title>
+</head>
+<body>
+    <script>
+        // essa parte do prompt
+        let idade = prompt("Digite sua idade");
+        // "16" o prompt sempre retorna uma string
+        // então a gente precisa convertar pra numero, por isso Number()
+        let acesso = Number(idade) >= 18 ? true : false;
+        // se idade for maior ou igual a 18 acesso == true
+        // se idade não for maior ou igual a 18 acesso == false
+        console.log(acesso);
+    </script>
+</body>
+</html>
