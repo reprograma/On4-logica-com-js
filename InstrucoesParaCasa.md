@@ -1,3 +1,15 @@
+# Como entregar os exercícios
+
+Crie uma pasta com seu nome no modelo:
+
+Isabelle_Galvao
+
+e suba seu arquivo com as repostas.
+
+---
+Exercícios
+---
+
 - Declare uma variável de tipo Number de nome qualquer cujo valor seja seu ano de nascimento e mostre no console.
 - Declare uma variável de tipo String de nome qualquer cujo valor seja seu signo e mostre no console.
 - Declare uma variável souProgrmadora do tipo Boolean e mostre no console.
@@ -36,8 +48,7 @@
 
 ---
 
-
-Para mais desafios consulte o arquivo de desafios.
+Para desafios extras não obrigatórios consulte o arquivo de desafios.
 
 
 
