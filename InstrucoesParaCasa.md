@@ -6,15 +6,29 @@
     ```
     git clone [link]
     ```
-3. Crie uma pasta com seu nome dentro da pasta `Entregas` no modelo `Isabelle_Galvao` e suba seu arquivo com as repostas.
+3. Crie uma `branch` com o seu nome
+    ```
+    git chechout -b "seu-nome"`
+    ```
+4. Entrem na branch criada e sejam felizes resolvendo o exercício :)
+    
+    Se estiver na master...
+    ```
+    git checkout "seu-nome"
+    ```
+5. Crie uma pasta com seu nome dentro da pasta `Entregas` no modelo `Isabelle_Galvao` e suba seu arquivo com as repostas.
 
-4. Adicionem as atualizações, "commitem" e deêm `push` no repositório de vocês
+6. Adicionem as atualizações, "commitem" e deêm `push` no repositório de vocês
+    (Verifique que você está na sua branch)
 
     ```
     git add . ou git add (nome do arquivo ou pasta)
     git commit -m "texto do seu commit"
-    git push origin master
+    git push origin SEU-NOME
     ```
+
+7. Entrem no git de vocês e deêm um `pull request` quando terminarem um exercício ou quando terminarem tudo.
+
 
 Opcional: Criem um repositório no github de vocês e também subam os exercícios feitos.
 
