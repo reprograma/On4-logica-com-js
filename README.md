@@ -42,6 +42,8 @@ As estruturas de um algoritmo são:
 - **variáveis**: são as informações de entrada inseridas que determinam aonde o algoritmo poderá ir. As mais comuns são texto, inteiro, lógico e real;
 - **comandos de repetição***: consiste no uso de “se” e “enquanto”, para que o algoritmo saiba o que fazer quando determinados processos ocorrerem e o que fazer se eles mudarem.
 
+<img src="assets/flow-2.png">
+
 ## Variáveis e constantes
 
 O recurso utilizado nos programas para escrever e **ler dados da memória do computador** é conhecido como variável, que é simplesmente um espaço na memória o qual reservamos e damos um nome. Por exemplo, podemos criar uma variável chamada "idade" para armazenar a idade de uma pessoa. Você pode imaginar uma variável como uma gaveta "etiquetada" em um armário.
@@ -131,6 +133,30 @@ console.log(x)
 O javascript não tem o que chamamos de tipagem de dados que é literalmente descrever qual é o tipo dessa variável, o que ele faz é "entender/adivinhar" qual é o tipo de dados de determinada variável sem ela ter sido declarada no código escrito.
 
 ----
+## Ferramentas para interagir com os inputs
+
+O `alert` mostra uma mensagem na tela como um pop-up.
+
+```javascript
+let mensagem = 'Mensagem que vai aparecer no nosso alerta';
+alert(mensagem);
+
+```
+O `confirm` é um pop-up que oferece uma lógica através de dois botões - o Ok (true) e o Cancel (false)
+```javascript
+let mensagem = 'Aperte o botão ok';
+confirm(mensagem);
+// Se o usuário apertar Ok vai retornar true, se apertar Cancel vai retornar false
+```
+
+O `prompt` é um pop-up que nos oferece um input para coletarmos variáveis.
+
+```javascript
+let nome = 'Digite o seu nome';
+prompt(nome);
+```
+
+----
 Vamos aos programas e aos processamentos de dados
 
 ----
@@ -140,10 +166,44 @@ Vamos aos programas e aos processamentos de dados
 ### Operadores de atribuição
 O operador de atribuição básico é o igual (=), que atribui o valor do operando à direita ao operando à esquerda. Isto é, x = y atribui o valor de y a x.
 
+#### Igual
 ```javascript
 var y = 7;
 var x = y; // x é igual à 7
 ```
+
+#### Adiciona valor 
+y = y + 3
+
+```javascript
+var y = 8;
+y += 3; // y é igual à 11
+```
+
+#### Subtrai valor 
+y = y - 10
+
+```javascript
+var y = 73;
+y -= 10; // y é igual à 63
+```
+
+#### Multiplica valor 
+y = y * 8
+
+```javascript
+var y = 7;
+y *= 8; // y é igual à 56
+```
+
+#### Divide valor 
+y = y / 5
+
+```javascript
+var y = 20;
+y /= 5; // y é igual à 4
+```
+
 
 ### Operadores Aritméticos
 
@@ -467,6 +527,65 @@ var salario = 1000;
 var bonus = salario * (salario > 1000 ? 0.10 : 0.15);
 ```
 
+## Laços de repetição
+Laços oferecem um jeito fácil e rápido de executar uma ação repetidas vezes. 
+
+JavaScript suporta diferentes tipos de loops:
+
+### for
+Você pode pensar em um laço de repetição como um jogo onde você manda o seu personagem andar X passos.
+
+```javascript
+var passo;
+for (passo = 1; passo <= 5; passo++) {
+  // Executa 5 vezes, com os valores de passos de 1 a 5.
+  console.log('já dei '+passo+' passos');
+}
+// já dei 1 passos
+// já dei 2 passos
+// já dei 3 passos
+// já dei 4 passos
+// já dei 5 passos
+```
+
+### for of
+O JavaScript for/of instrução itera pelos valores de objetos iteráveis
+
+for / of permite percorrer estruturas de dados que são iteráveis, como Arrays, Strings, Maps, NodeLists, and more.
+
+```javascript
+var txt = 'JavaScript';
+var x;
+
+for (x of txt) {
+  console.log(x + "<br >");
+}
+```
+
+## Funções e parâmetros
+
+Uma função JavaScript é definida com a palavra-chave `function`, seguida por um **nome**(opcional), seguido por parênteses **()**.
+
+Os nomes das funções podem conter letras, dígitos, sublinhados e cifrões (mesmas regras que as variáveis).
+
+Os parênteses podem incluir nomes de parâmetros separados por vírgulas:
+**(parâmetro1, parâmetro2, ...)**
+
+O código a ser executado, pela função, é colocado entre colchetes: **{}**
+
+```javascript
+function nome(parametro1, parametro2, parametro3) {
+  // código a ser executado
+}
+```
+
+Os **parâmetros** da função estão listados entre parênteses () na definição da função.
+
+Os **argumentos** da função são os **valores** recebidos pela função quando ela é chamada.
+
+Dentro da função, os argumentos (os parâmetros) se comportam como **variáveis** locais.
+
+<!-- 
 ## Arrays
 
 Em Js o Array é um objeto, um objeto especial com características próprias mas não existe o nativo. Ele trabalha de uma forma indexada a partir de um valor inteiro começando com 0. É uma estrutura dinâmica que cresce dinamicamente e diminui dinamicamente diferente de outras linguagens na qual tem uma estrutura estática e tamanho fixo. Os tipos de dados que você pode colocar no Array são os mais variáveis possíveis ou seja, uma estrutura heterogênea em que você pode colocar um inteiro, um boolean, um objeto ou outro Array, não existe restrição. Dito isso a boa prática diz que você deve trabalhar com dados homogêneos dentro de um array.
@@ -684,18 +803,4 @@ console.log(todos) // [ 'Julia', 'Paula', 'Pedro', 'João' ]
 const grupoA = = [ 'João', 'Pedro', 'Glória']
 const grupoFinal = [ 'Maria', ...grupoA, 'Rafaela']
 console.log(grupoFinal) // [ 'Maria', 'João', 'Pedro', 'Glória', 'Rafaela' ]
-```
-
-## Laços de repetição
-
-Loops podem executar um bloco de código várias vezes.
-Loops são úteis, se você quiser executar o mesmo código repetidas vezes, sempre com um valor diferente.
-
-JavaScript suporta diferentes tipos de loops:
-
-- for
-- for in
-- while
-- do while
-
-## Funções e parâmetros
+``` -->
