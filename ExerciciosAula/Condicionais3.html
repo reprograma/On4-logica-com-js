@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        
+        let nota1 = prompt("Digite a nota do primeiro Bimestre") // prompt retorna um valor do tipo string "9"
+        let nota2 = prompt("Digite a nota do segundo Bimestre")
+        let nota3 = prompt("Digite a nota do terceiro Bimestre")
+        let nota4 = prompt("Digite a nota do quarto Bimestre")
+
+        console.log(nota1, nota2, nota3, nota4) 
+        // o operador + ele concatena as strings 
+        let notaAnual = Number(nota1) + Number(nota2) + Number(nota3) + Number(nota4)
+        // parseInt - pra numeros inteiros
+        // parseFloat - para numeros decimais
+        // Number - converte para tipo number 
+        // parseInt(valorParaSerConvertido)
+        let media = notaAnual / 4;
+        console.log(notaAnual, media)
+        // Para ser aprovado a média precisa estar acima de 6
+        let estaAprovado = media >= 6 //ser for maior ou igual = true
+
+        if(estaAprovado){
+            // alert("parabéns")
+            //  alert('Parabéns você foi aprovado com média: ' + media)
+            //  alert("Parabéns você foi aprovado com média: " + media)
+
+            // Template String
+             alert(`Parabéns você foi aprovado com média: ${media}`)
+        }else{
+            // alert("Sua média foi: " + media + " Infelimente vc não foi aprovado")
+            alert(`Sua média foi: ${media}. Infelimente vc não foi aprovado`)
+        }
+
+
+
+
+
+    </script>
+</body>
+</html>

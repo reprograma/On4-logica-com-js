@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Condicionais</title>
+</head>
+<body>
+
+    <script>
+    
+        /*
+            condições
+        */
+
+        // prompt abre um popup com um campo de input
+        let previsao = prompt("Digite a previsão do tempo: sol ou chuva")
+        console.log(previsao)
+
+        // o que o usuário digitou é igual a "sol" ou igual a "Sol" ou igual a "SOL"
+        // como escrever o OU de forma lógica
+        // com || - OU lógico
+
+        if(previsao == "sol" || previsao == "Sol" || previsao == "SOL" || previsao == "ensolarado"){
+
+            alert("Vamos a praia!")
+
+        } else if(previsao == "nublado" || previsao == "Nublado"){
+            
+            alert("Vamos ao cinema!")
+
+        }else if(previsao == "tempestade"){
+            
+            alert("Vamos procurar abrigo!")
+
+        }else{
+            alert("que pena :c")
+        }
+        
+    
+    </script>
+    
+</body>
+</html>
