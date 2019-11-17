@@ -1,10 +1,22 @@
 # Como entregar os exercícios
 
-Crie uma pasta com seu nome no modelo:
+1. Entre no repositório da Reprograma e "forke" o [repositorio da aula](https://github.com/reprograma/On4-logica-com-js)
 
-Isabelle_Galvao
+2. Clone o repositório para a sua máquina
+    ```
+    git clone [link]
+    ```
+3. Crie uma pasta com seu nome dentro da pasta `Entregas` no modelo `Isabelle_Galvao` e suba seu arquivo com as repostas.
 
-e suba seu arquivo com as repostas.
+4. Adicionem as atualizações, "commitem" e deêm `push` no repositório de vocês
+
+    ```
+    git add . ou git add (nome do arquivo ou pasta)
+    git commit -m "texto do seu commit"
+    git push origin master
+    ```
+
+Opcional: Criem um repositório no github de vocês e também subam os exercícios feitos.
 
 ---
 Exercícios
