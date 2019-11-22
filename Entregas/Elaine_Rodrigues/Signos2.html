@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Signos</title>
+</head>
+
+<body>
+    <script>
+        let DiadeNasc = prompt("Qual o dia do seu nascimento?")
+        let meses = ("janeiro", "fevereiro", "março", "abril", "maio", "junho", "julho", "agosto", "setembro", "outubro", "novembro", "dezembro").toLowerCase()
+        let MesdeNasc = prompt("Qual o mês do seu nascimento?")
+        console.log(meses)
+
+        if (meses == janeiro && DiadeNasc > 20 && meses == fevereiro && DiadeNasc < 19) {
+            alert("Você é de Aquários!")
+        } else if (meses == fevereiro && DiadeNasc > 18 || meses == março && DiadeNasc < 20) {
+            alert("Você é de Peixes!")
+        } else if (meses == março && DiadeNasc > 19 || meses == abril && DiadeNasc < 21) {
+            alert("Você é de Áries!")
+        } else if (meses == abril && DiadeNasc > 20 || meses == maio && DiadeNasc < 21) {
+            alert("Você é de Touro!")
+        } else if (meses == maio && DiadeNasc > 20 || meses == junho && DiadeNasc < 21) {
+            alert("Você é de Gêmios!")
+        } else if (meses == junho && DiadeNasc > 20 || meses == julho && DiadeNasc < 22) {
+            alert("Você é de Cancêr!")
+        } else if (meses == julho && DiadeNasc > 21 || meses == agosto && DiadeNasc < 23) {
+            alert("Você é de Leão!")
+        } else if (meses == agosto && DiadeNasc > 22 || meses == setembro && DiadeNasc < 23) {
+            alert("Você é de Virgem!")
+        } else if (meses == setembro && DiadeNasc > 22 || meses == outubro && DiadeNasc < 23) {
+            alert("Você é de Libra!")
+        } else if (meses == outubro && DiadeNasc > 22 || meses == novembro && DiadeNasc < 22) {
+            alert("Você é de Escorpião!")
+        } else if (meses == novembro && DiadeNasc > 21 || meses == dezembro && DiaDiadeNasc < 22) {
+            alert("Você é de Sagitário!")
+        } else if (meses == dezembro && DiadeNasc > 21 || meses == Janeiro && DiadeNasc < 22) {
+            alert("Você é de Capricórnio!")
+        } else {
+            alert("Data errada!")
+        }
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>exercício 2</title>
+</head>
+<body>
+    <script>
+         let AnoAtual = 2019
+   let AnodeNasc= prompt("Digite seu ano de nascimento.")
+   console.log(AnoAtual, AnodeNasc)
+   let Idade = Number(AnoAtual) - Number(AnodeNasc)
+alert(`Sua idade é: ${Idade}`)
+
+    let N1 = prompt("Digite um número.")
+    let N2 = prompt("Digite mais um número")
+    console.log(N1, N2)
+    let Soma = parseFloat(N1) + parseFloat(N2)
+    console.log(Soma)
+    alert(`A sua soma foi: ${Soma}`)
+
+    let Multiplicacao = parseFloat(Soma) * 10
+    console.log(Multiplicacao)
+    alert(`A sua multiplicação foi: ${Multiplicacao}`)
+
+let Divisao = parseFloat(Multiplicacao) / 2
+console.log(Divisao)
+alert(`A sua divisão foi: ${Divisao}`)
+
+let Resto = parseFloat(Multiplicacao) % parseFloat(Divisao)
+console.log(Resto)
+alert(`A sua resto foi: ${Resto}`)
+console.log(Idade, Soma, Multiplicacao, Divisao, Resto)
+alert(`Idade: ${Idade}, Soma: ${Soma}, Multiplicação: ${Multiplicacao}, Divisão: ${Divisao}, Resto: ${Resto}`)
+    
+    </script>
+</body>
+</html>
