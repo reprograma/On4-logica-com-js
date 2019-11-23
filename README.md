@@ -23,6 +23,23 @@ Essa tela deve aparecer.
 
 > Mais: Prompt e alert!
 
+---
+
+## Chamar o JS dentro do HTML
+
+Você precisa avisar ao navegador que existe um arquivo Javascipt e que ele precisa carregá-lo.
+
+``` javascript
+<script src="./js/hello.js"></script>`
+```
+
+```javascript
+<script>
+    Seu script
+    Essa não é uma boa prática, serve apenas para exercícios e pequenos testes.
+</script>
+```
+---
 
 ## O que é um algoritmo
 > [Ada Lovelace, a primeira programadora de todos os tempos](https://canaltech.com.br/curiosidades/mulheres-historicas-ada-lovelace-a-primeira-programadora-de-todos-os-tempos-71395/)
@@ -171,39 +188,6 @@ O operador de atribuição básico é o igual (=), que atribui o valor do operan
 var y = 7;
 var x = y; // x é igual à 7
 ```
-
-#### Adiciona valor 
-y = y + 3
-
-```javascript
-var y = 8;
-y += 3; // y é igual à 11
-```
-
-#### Subtrai valor 
-y = y - 10
-
-```javascript
-var y = 73;
-y -= 10; // y é igual à 63
-```
-
-#### Multiplica valor 
-y = y * 8
-
-```javascript
-var y = 7;
-y *= 8; // y é igual à 56
-```
-
-#### Divide valor 
-y = y / 5
-
-```javascript
-var y = 20;
-y /= 5; // y é igual à 4
-```
-
 
 ### Operadores Aritméticos
 
