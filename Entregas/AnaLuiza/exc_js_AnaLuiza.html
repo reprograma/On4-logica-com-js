@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Exercicio JavaScript Ana Luiza Artine</title>
+</head>
+<body>
+    
+        <script>
+
+// Declare uma variável de tipo Number de nome qualquer cujo valor seja seu ano de nascimento e mostre no console.
+
+let anonascimento = 1993
+console.log("Qual ano você nasceu?")
+console.log(anonascimento)
+
+
+
+// Declare uma variável de tipo String de nome qualquer cujo valor seja seu signo e mostre no console.
+
+let string ="libra" 
+console.log(string)
+
+// Declare uma variável souProgrmadora do tipo Boolean e mostre no console. (true or false)
+
+let SouProgramadora = true
+console.log(SouProgramadora)
+
+
+//Declare uma variável soma e atribua nela o resultado da soma entre dois número.
+let num1=50
+let num2=125
+
+let soma = num1 + num2
+
+
+
+//Declare uma variável idade e atribua nela o valor do calculo da sua idade com base no ano de hoje e o ano do seu nascimento (Dica se eu nasci em 1996 quanto anos fiz em 2019).
+let anoatual = 2019
+let idade = anoatual - anonascimento
+console.log(idade)
+
+//Declare uma variável multiplicacao e atribua nela o resultado da multiplicacao de soma, a variável que vc criou antes, por 10.
+
+let multiplicacao = soma*10
+
+
+// Declare uma variável divisao e atribua nela o resultado da divisão entre o valor de multiplicacao, a variável que vc criou antes, por um numero qualquer.
+let divisao = multiplicacao/2
+
+
+// Declare uma variável resto e atribua nela o resultado do resto desse cálculo.
+let resto= divisao%2
+
+// Mostre as variáveis a seguir no console: soma, idade, multiplicacao, divisao, resto.
+console.log("Soma")
+console.log(soma)
+
+console.log("Multiplicação")
+console.log(multiplicacao)
+
+console.log("Divisão")
+console.log(divisao)
+
+console.log("Resto")
+console.log(resto)
+
+// Crie uma variável chamada pizza cujo valor é 0 e incremente a quantidade de pedaços que você comeria agora.
+let pizza  = 0
+
+pizza++
+pizza++
+pizza++
+pizza++
+
+// Crie uma variável chamada semana cujo valor é 7 e decremente com a quantidade de dias não ‘úteis’.
+
+let semana = 7
+
+semana--
+semana--
+
+// Mostre as variáveis no console:
+console.log("Quantos pedaços de pizza eu comi?")
+console.log(pizza)
+
+console.log("Quantos são os dias úteis da semana?")
+console.log(semana)
+
+//Receba um valor do prompt chamado mes cujo valor deve ser um mês do ano, se esse mes for igual a “Dezembro” escreva no console ‘Está quase acabando!!’.
+let mes=prompt("Digite um mês do ano").toLowerCase()
+console.log("Mês digitado")
+console.log(mes)
+
+if (mes = "Dezembro"){
+    alert("Está quase acabando!!")
+}
+else{
+    alert("Aguenta que uma hora as férias chegam!")
+}
+
+//Receba um valor do prompt chamado idade cujo valor é a sua idade, se for maior ou igual a 65 anos escreva no console ‘Fila Preferencial’,caso contrário escra "‘Fila Comum";
+
+let idade1=prompt("Digite sua idade")
+console.log("Idade digitada")
+console.log(idade)
+
+if (idade1 >= 65){
+    alert("Fila Preferencial")
+}
+
+else{
+    alert("Fila Comum")
+}
+
+//Crie uma variável chamada banda que seja um array com as suas 3 das suas bandas favoritas
+let banda = ["Yes", "Jethro Tull", "Peortá Chingó"]
+
+
+//Crie uma variável chamada contato que seja um array com 2 emails de contato diferentes
+let contato = ["anaartine@gmail.com", "um-email-qualquer@gmail.com"]
+
+//Crie uma variável chamada numeros que seja um array com 7 valores numéricos aleatórios
+let numeros = ["1", "15", "23", "26", "29", "30","60"]
+
+//Retorne no console a primeira banda do seu array banda
+console.log("Banda preferida")
+console.log(banda[0])
+
+//Retorne no console o ultimo numero do seu array numeros
+console.log("Último número da lista")
+console.log(numeros[6])
+
+
+</script>
+
+</body>
+</html>
