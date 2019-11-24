@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+    
+    // Crie uma variável chamada semana cujo valor é 7 e decremente com a quantidade de dias não ‘úteis’.
+var semana = 7;
+
+var dia = ['seg', 'ter', 'qua', 'qui', 'sex', 'sab', 'dom'];
+
+for (let i in dia) {
+if (dia[i] == 'sab' || dia[i] == 'dom')
+    semana--;
+}
+var feriado = prompt('Essa semana possui feriado? S ou N');
+
+if(feriado == 'S') {
+    var diaFeriado = prompt('O feriado é no final de semana? S ou N');
+    if(diaFeriado == 'N') {
+        semana--;
+    }
+}
+console.log('Quantidade de dias uteis na semana é: ' + semana);
+    
+    
+    
+    
+    
+    
+    </script>
+</body>
+</html>
