@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Prompt Exercise</title>
+</head>
+    <body>
+        
+        <script>
+
+            // Receba um valor do prompt chamado mes cujo valor deve ser um mês do ano, se esse mes for igual a “Dezembro” escreva no console ‘Está quase acabando!!’.
+
+                let month = prompt ("Enter a month of the year").toLowerCase()
+                console.log(month)
+
+                if (month === "december"){
+                    alert("It's almost over!!")
+                } else {
+                    alert("Hold on, we are still in 2019!!")
+                }
+
+            // Receba um valor do prompt chamado idade cujo valor é a sua idade, se for maior ou igual a 65 anos escreva no console ‘Fila Preferencial’,caso contrário escra "‘Fila Comum";
+
+                let age = prompt("Enter your age here")
+                console.log(age)
+
+                if(age >= 65) {
+                    alert("Priority line")
+                }else{
+                    alert("Regular line")
+                }
+
+        </script>
+    </body>
+</html>
