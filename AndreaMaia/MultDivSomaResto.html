@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>MultDivSomaResto</title>
+</head>
+<body>
+    <script>
+    
+    let ncat= prompt("Quantos gatos você tem?")
+        let ndog= prompt("Quantos cachorros você tem?")
+        console.log(ncat, ndog)
+        let soma = parseInt(ncat)+parseInt(ndog)
+        console.log(soma)
+        alert ("Uau você cuida de"+ soma +"animais")
+
+        let anoatual= prompt("Diga que ano estamos:")
+        let anoNascimento= prompt("Diga o ano que nasceu:")
+        console.log(anoatual,anoNascimento)
+        let idade = parseInt(anoatual)- parseInt(anoNascimento)
+        console.log(idade)
+        alert ( "Sua idade é:" + idade )
+
+        let multiplicacao = parseInt (idade*10) + parseInt (soma*10)
+        console.log(multiplicacao)
+        
+        let escolhanumero = prompt ("Digite um número de 1 a 10:")
+        let divisao = parseInt (multiplicacao/escolhanumero)
+        console.log(divisao)
+
+        let resto = parseInt (multiplicacao%divisao)
+        console.log(resto)
+      
+    </script>
+</body>
+</html>
