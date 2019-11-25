@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Exercício 4</title>
+</head>
+
+<body>
+	<script>
+		//- Receba um valor do prompt chamado mes cujo valor deve ser um mês do ano, 
+		//se esse mes for igual a “Dezembro” escreva no console ‘Está quase acabando!!’.
+		let mes = prompt("Digite um mês do ano")
+		if (mes == "dezembro" || mes == "Dezembro" || mes == "DEZEMBRO") {
+			alert("Está quase acabando!!")
+		} else if (mes == "agosto" || mes == "Agosto" || mes == "AGOSTO") {
+			alert("Hei, é o mês no meu aniversário! :D")
+		} else {
+			alert("Força, foco e café!")
+		}
+
+		//- Receba um valor do prompt chamado idade cujo valor é a sua idade, 
+		//se for maior ou igual a 65 anos escreva no console ‘Fila Preferencial’,caso contrário escreva "‘Fila Comum";
+		let idade = prompt("Digite a sua idade")
+		if (idade >= 65) {
+			alert("Fila Preferencial")
+		} else if (idade <= 65) {
+			alert("Fila Comum")
+		}
+
+	</script>
+</body>
+
+</html>
