@@ -1,0 +1,29 @@
+<!--Exercício 12: Receba um valor do prompt chamado mes cujo valor deve ser um mês do ano, se esse mes for igual a “Dezembro” escreva no console ‘Está quase acabando!!’.-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Exercício 12</title>
+</head>
+<body>
+    <script>
+        let mes = prompt("Digite um mês do ano").toLocaleLowerCase()
+
+        if(mes == "dezembro"){
+            console.log("O ano está quase acabando!")
+        }
+        else if (mes == "janeiro" || mes == "fevereiro" || mes == "março" || mes == "abril" || mes == "maio" || mes == "junho" || mes == "julho" || mes == "agosto" || mes == "setembro"){
+            console.log("Falta muito para acabar o ano")
+        }
+        else if(mes == "outubro" || mes == "novembro"){
+            console.log("Quase chegando mês de Dezembro")
+        }
+        else{
+            console.log("Desculpe! Não conheço esse mês do ano. Por favor! Digite novamente.")
+        }
+    </script>
+</body>
+</html>
