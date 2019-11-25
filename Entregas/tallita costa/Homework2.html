@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Homework 2</title>
+</head>
+<body>
+    <script>
+    // Receba um valor do prompt chamado idade cujo valor é a sua idade, 
+    // se for maior ou igual a 65 anos escreva no console ‘Fila Preferencial’,
+    //caso contrário escra "‘Fila Comum";
+    let idade = prompt ("Digite a sua idade"); 
+    console.log (idade)
+
+    let filaPreferencial = idade >= 65 
+    
+    if (filaPreferencial) {
+    alert (`Fila Preferencial`) 
+    } 
+  
+    else {
+    alert (`Fila Comum`)
+    }
+
+    // Crie uma variável chamada banda que seja um array com as suas 3 das suas bandas favoritas
+    let banda = ["The Killers", "Clarice Falcão", "Foo Fighters"]
+
+        console.log (banda)
+        console.log (banda.length) //retorna o tamanho da lista
+       
+        alert(banda [0]) 
+
+        
+        for(let contador = 0; contador < banda.length; contador++) {
+            console.log(banda[contador])
+        }
+    
+    // Crie uma variável chamada contato que seja um array com 2 emails de contato diferentes
+    let contato = ["cs.talli@gmail.com", "tallita@kindle.com"]
+
+    // Crie uma variável chamada numeros que seja um array com 7 valores numéricos aleatórios
+    let numeros = ["7","32","4","15","23","87","19"]
+
+    // Retorne no console a primeira banda do seu array banda
+    console.log(banda[0]);
+       
+    // Retorne no console o ultimo numero do seu array numeros
+    console.log(numeros[6]);
+
+    </script>
+</body>
+</html>
