@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+
+        //- Declare uma variável de tipo Number de nome qualquer cujo valor seja seu ano de nascimento e mostre no console.
+        //- Declare uma variável de tipo String de nome qualquer cujo valor seja seu signo e mostre no console.
+        // - Declare uma variável souProgrmadora do tipo Boolean e mostre no console.
+
+        let data = 1989
+        console.log(data)
+
+        let signo = "escorpiao"
+        console.log(signo)
+
+        let souProgrmadora = true
+        console.log(souProgrmadora)
+
+        // - Declare uma variável soma e atribua nela o resultado da soma entre dois número.
+        // - Declare uma variável idade e atribua nela o valor do calculo da sua idade com base no ano de hoje e o ano do seu nascimento (Dica se eu nasci em 1996 quanto anos fiz em 2019).
+        // - Declare uma variável multiplicacao e atribua nela o resultado da multiplicacao de soma, a variável que vc criou antes, por 10.
+        // - Declare uma variável divisao e atribua nela o resultado da divisão entre o valor de multiplicacao, a variável que vc criou antes, por um numero qualquer.
+        //- Declare uma variável resto e atribua nela o resultado do resto desse cálculo.
+
+        // - Mostre as variáveis a seguir no console: soma, idade, multiplicacao, divisao, resto.
+
+        let soma = 5
+        soma += 3
+        console.log(soma)
+
+        let idade = 2019
+        idade -= 1989
+        console.log(idade)
+
+
+        let multiplicacao = 8
+        multiplicacao *= 10
+        console.log(multiplicacao)
+
+        let divisao = 80
+        divisao /= 10
+        console.log(divisao)
+
+        let resto = 80
+        let x = 10
+        let resultado = resto % x
+        console.log(resultado)
+
+
+        // - Receba um valor do prompt chamado mes cujo valor deve ser um mês do ano, 
+        // se esse mes for igual a “Dezembro” escreva no console ‘Está quase acabando!!’.
+
+        // - Receba um valor do prompt chamado idade cujo valor é a sua idade, 
+        // se for maior ou igual a 65 anos escreva no console ‘Fila Preferencial’,
+        // caso contrário escra "‘Fila Comum";
+
+        let mes = prompt("Em qual mes do ano estamos?")
+        console.log(mes)
+
+        if (mes == "dezembro") {
+            alert("Está quase acabando!!")
+        } else {
+            alert("ainda tem muito pela frente")
+        }
+
+
+        // - Crie uma variável chamada banda que seja um array com as suas 3 das suas bandas favoritas
+        // - Crie uma variável chamada contato que seja um array com 2 emails de contato diferentes
+        // - Crie uma variável chamada numeros que seja um array com 7 valores numéricos aleatórios
+
+        // - Retorne no console a primeira banda do seu array banda
+        // - Retorne no console o ultimo numero do seu array numeros
+
+        let banda = ["REM", "Beatles", "Strokes"]
+        console.log(banda)
+        console.log(banda[0])
+
+        let contato = ["patriciachedid@gmail.com", "patriciamagalhaes@gmail.com"]
+
+        let numeros = [1, 2, 3, 4, 5, 6, 7]
+        console.log(numeros)
+        console.log(numeros[6])
+
+
+        // DESAFIOS
+
+        // Usando for, multiplique  todos os números de um array por 10 
+        // e retorne um novo array com os valores novos 
+
+
+        let lista = [1, 10,100]
+        console.log(lista)
+        console.log(lista.length)
+
+        for(let indice = 0; indice <= lista.length; indice++){
+            console.log(lista[indice]* 10)
+        }
+
+        
+    </script>
+</body>
+
+</html>
