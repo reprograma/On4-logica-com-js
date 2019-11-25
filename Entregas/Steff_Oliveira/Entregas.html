@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Entregas</title>
+</head>
+
+<body>
+    <script>
+
+        //Declare uma variável de tipo Number de nome qualquer cujo valor seja seu ano de nascimento e mostre no console. 
+        let anoNascimento = 1989
+        console.log(anoNascimento)
+
+        //Declare uma variável de tipo String de nome qualquer cujo valor seja seu signo e mostre no console.
+        let meuSigno = "Aquário"
+        console.log(meuSigno)
+
+        //Declare uma variável souProgrmadora do tipo Boolean e mostre no console.
+        let souProgramadora = true
+        console.log(souProgramadora)
+    
+        //Declare uma variável soma e atribua nela o resultado da soma entre dois número.
+        let soma = 5 + 5
+        //console.log(soma)
+
+        //Declare uma variável idade e atribua nela o valor do calculo da sua idade com base no ano de hoje e o ano do seu nascimento (Dica se eu nasci em 1996 quanto anos fiz em 2019).
+        let idade = 2019 - 1989
+        //console.log(idade)
+
+        //Declare uma variável multiplicacao e atribua nela o resultado da multiplicacao de soma, a variável que vc criou antes, por 10.
+        let multiplicacao = 10 * idade
+        //console.log(multiplicacao)
+
+        //Declare uma variável divisao e atribua nela o resultado da divisão entre o valor de multiplicacao, a variável que vc criou antes, por um numero qualquer.
+        let divisao = multiplicacao / 2
+        //console.log(divisao)
+
+        //Declare uma variável resto e atribua nela o resultado do resto desse cálculo.
+        let resto = idade % multiplicacao
+        //console.log(resto)
+
+        //Mostre as variáveis a seguir no console: soma, idade, multiplicacao, divisao, resto.
+        console.log(soma)
+        console.log(idade)
+        console.log(multiplicacao)
+        console.log(divisao)
+        console.log(resto)
+
+        //Crie uma variável chamada pizza cujo valor é 0 e incremente a quantidade de pedaços que você comeria agora.
+        let pizza = 0 
+        pizza++
+        pizza++
+        //console.log(pizza++)
+
+        //Crie uma variável chamada semana cujo valor é 7 e decremente com a quantidade de dias não ‘úteis’.
+        let semana = 7
+        semana--
+        semana--
+        //console.log(semana--)
+
+        //Mostre as variáveis no console:
+        console.log(pizza++)
+        console.log(semana--)
+        
+        //Receba um valor do prompt chamado mes cujo valor deve ser um mês do ano, se esse mes for igual a “Dezembro” escreva no console ‘Está quase acabando!!’.
+        let mes = prompt("Digite o mês atual")
+        if(mes == "Dezembro" || mes == "dezembro" || mes == "DEZEMBRO"){
+            alert("Está quase acabando!!!")
+        }else{ 
+            alert("Aguente firme")
+        }
+        console.log(mes)
+
+        //Receba um valor do prompt chamado idade cujo valor é a sua idade, se for maior ou igual a 65 anos escreva no console ‘Fila Preferencial’,caso contrário escra "‘Fila Comum";
+        let idadeAtual = prompt("Digite sua idade atual")
+        if (idadeAtual >= 65){
+            alert("Fila Preferencial")
+        }else{
+            alert("Fila Comum")
+        }
+        console.log(idadeAtual)
+
+        //Crie uma variável chamada banda que seja um array com as suas 3 das suas bandas favoritas
+        let banda = ["Guns n' Roses", "Iron Maiden", "Cidade Negra"]
+        //console.log(banda)
+
+        //Crie uma variável chamada contato que seja um array com 2 emails de contato diferentes
+        let contato = ["steffcoliveira@gmail.com", "steffgnr@hotmail.com"]
+        console.log(contato)
+
+        //Crie uma variável chamada numeros que seja um array com 7 valores numéricos aleatórios
+        let numeros = [9, 2, 8, 13, 28, 11, 7]
+        //console.log(numeros)
+
+        //Retorne no console a primeira banda do seu array banda
+        console.log (banda[0])
+        
+        //Retorne no console o ultimo numero do seu array numeros
+        console.log (numeros[6])
+             
+
+    </script>
+</body>
+
+</html>
